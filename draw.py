@@ -20,8 +20,8 @@ def blood(c, options = {}):
     }   
 
     spacing = options.get('spacing', {
-        'vertical': 5,
-        'horizontal': 5
+        'vertical': 6,
+        'horizontal': 6
     })
 
     padding = options.get('padding', {
@@ -224,7 +224,7 @@ def blood(c, options = {}):
     ## Foreground color of the URL in the statusbar when there's a warning.
     c.colors.statusbar.url.warn.fg = palette['yellow']
 
-    ## Status bar padding
+    # Status bar padding
     c.statusbar.padding = padding
 
     ## Background color of the tab bar.
